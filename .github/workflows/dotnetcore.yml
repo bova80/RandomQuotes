@@ -44,6 +44,6 @@ jobs:
         # A comma-delimited list of packages to push to Octopus Deploy (i.e. package1,package2).
         #packages: # optional
         # The base URL hosting Octopus Deploy (i.e. "https://octopus.example.com/"). It is recommended to retrieve this value from an environment variable.
-        server: http://octopuscb.eastus.cloudapp.azure.com/
+        server: https://octopuscb.eastus.cloudapp.azure.com/
 
     
