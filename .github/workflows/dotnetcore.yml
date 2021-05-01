@@ -15,3 +15,7 @@ jobs:
         dotnet-version: 3.1.402
     - name: Build with dotnet
       run: dotnet build --configuration Release
+    - name: Docker Buildx Bake
+  # You may pin to the exact commit or the version.
+  # uses: docker/bake-action@1882cef5add2e6021b30cd4c565b9afd664f5251
+      uses: docker/bake-action@v1.4.0
